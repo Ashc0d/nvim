@@ -32,6 +32,11 @@ return require('packer').startup(function(use)
       requires = {'kyazdani42/nvim-web-devicons', opt = true}-- optional, for file icon
   }
 
+  -- vim-surround --
+  use {'tpope/vim-surround'}
+
+  -- coc.nvim plugin --
+  use {'neoclide/coc.nvim', branch = 'release'}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
