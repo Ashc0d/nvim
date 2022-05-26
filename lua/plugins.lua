@@ -5,24 +5,25 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 return require('packer').startup(function(use)
-  -- My plugins here
 
-  -- Packer can manage itself
+  -- My plugins here --
+
+  -- Packer (Required) --
   use {'wbthomason/packer.nvim'}
 
-  -- Plugins used by other--
-  -- Nvim-devicon plugin--
+  -- Plugins used by other --
+  -- Nvim-devicon plugin --
   use "kyazdani42/nvim-web-devicons"
 
   -- Main Plugins --
-  --Lualine Plugin--
+
+  --lualine Plugin --
   use { 'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true },
       config = function()
         require('lualine').setup({
-          options = {
-            extensions = {'nvim-tree'},
-          }
+          options = {theme = 'powerline'}, -- powerline theme for lualine --
+          extensions = {'nvim-tree'},
         })
       end,
   }
