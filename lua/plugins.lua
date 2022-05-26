@@ -18,22 +18,22 @@ return require('packer').startup(function(use)
   --Lualine Plugin--
   use { 'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true },
---    config = function()
---      require('lualine').setup({
---        options = {
---          extensions = {'nvim-tree'},
---        }
---      })
---    end,
+      config = function()
+        require('lualine').setup({
+          options = {
+            extensions = {'nvim-tree'},
+          }
+        })
+      end,
   }
 
   -- Nvim-tree plugin --
   use {
       'kyazdani42/nvim-tree.lua',
       requires = {'kyazdani42/nvim-web-devicons', opt = true}-- optional, for file icon
-      config = function()
-        require('configs.nvim-tree')
-      end,
+--      config = function()
+--        require('configs.nvim-tree')
+--      end,
   }
 
 
