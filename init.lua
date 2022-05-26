@@ -1,2 +1,2 @@
-require ('lua.plugins')
-require ('lua.basic-conf')
+require ('plugins')
+require ('basic-conf')
