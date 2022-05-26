@@ -18,13 +18,13 @@ return require('packer').startup(function(use)
   --Lualine Plugin--
   use { 'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true },
-    config = function()
-      require('lualine').setup({
-        options = {
-          extensions = {'nvim-tree'},
-        }
-      })
-    end,
+--    config = function()
+--      require('lualine').setup({
+--        options = {
+--          extensions = {'nvim-tree'},
+--        }
+--      })
+--    end,
   }
 
   -- Nvim-tree plugin --
