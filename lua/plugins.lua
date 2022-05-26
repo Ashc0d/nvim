@@ -5,9 +5,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 return require('packer').startup(function(use)
-
   -- My plugins here --
-
   -- Packer (Required) --
   use {'wbthomason/packer.nvim'}
 
@@ -16,8 +14,8 @@ return require('packer').startup(function(use)
   use "kyazdani42/nvim-web-devicons"
 
   -- Main Plugins --
+  -- lualine Plugin --
 
-  --lualine Plugin --
   use { 'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true },
       config = function()
@@ -32,9 +30,6 @@ return require('packer').startup(function(use)
   use {
       'kyazdani42/nvim-tree.lua',
       requires = {'kyazdani42/nvim-web-devicons', opt = true}-- optional, for file icon
---      config = function()
---        require('configs.nvim-tree')
---      end,
   }
 
 

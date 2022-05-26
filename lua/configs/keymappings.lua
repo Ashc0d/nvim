@@ -37,6 +37,5 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
-
 -- Nvim-tree --
-keymap("n", "<C-b>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
