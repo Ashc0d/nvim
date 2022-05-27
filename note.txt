@@ -19,6 +19,8 @@ Keymapped:
 Coc.nvim extentions:
 * coc-pyright
 * coc-markdownlint
+* coc-markdown-preview ## have to find replacement for it
+* coc-marketplace
 * coc-pairs
 * coc-css
 * coc-html
