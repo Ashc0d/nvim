@@ -78,7 +78,7 @@ nvim_tree.setup {
   },
   git = {
     enable = true,
-    ignore = true,
+    ignore = false, -- This will not show file which are present in .gitignore in nvim_tree
     timeout = 500,
   },
   view = {
@@ -94,7 +94,7 @@ nvim_tree.setup {
         { key = "v", cb = tree_cb "vsplit" },
       },
     },
-    number = false,
+    number = true, --This will show numbers in nvim_tree
     relativenumber = false,
   },
   trash = {
