@@ -39,3 +39,5 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Nvim-tree --
 keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>r", ":NvimTreeRefresh<CR>", opts)
+keymap("n", "<leader>n", ":NvimTreeFindFile<CR>", opts)
