@@ -1,4 +1,4 @@
-Plugins that are installed
+Plugins that are installed:
 * lualine
 * nvim-tree
 * devi-icons
@@ -11,7 +11,18 @@ Plugins that are installed
 
 
 
-Keymapped
-
+Keymapped:
 * basic visual text movement
 * nvim-tree toggle
+
+
+Coc.nvim extentions:
+* coc-pyright
+* coc-markdownlint
+* coc-css
+* coc-html
+* coc-docker
+* coc-yaml
+* coc-explorer
+* coc-rust-analyzer
+* coc-webview
