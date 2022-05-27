@@ -3,7 +3,7 @@ Plugins that are installed:
 * nvim-tree
 * devi-icons
 * coc.nvim
-* vim-surround
+* vim-surround ##have to replace it with coc-pairs
 
 
 
@@ -19,6 +19,7 @@ Keymapped:
 Coc.nvim extentions:
 * coc-pyright
 * coc-markdownlint
+* coc-pairs
 * coc-css
 * coc-html
 * coc-docker
