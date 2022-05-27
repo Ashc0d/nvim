@@ -1,0 +1,17 @@
+Plugins that are installed
+* lualine
+* nvim-tree
+* devi-icons
+* coc.nvim
+* vim-surround
+
+
+
+
+
+
+
+Keymapped
+
+* basic visual text movement
+* nvim-tree toggle
